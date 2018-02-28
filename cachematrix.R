@@ -39,3 +39,9 @@ cacheSolve <- function(x, ...)
  x$setinverse(i)
  return(i)
 }
+
+
+## Use this code to test the functions 
+t <- matrix(c(1:4), 2 ,2)
+u <- makeCacheMatrix(t)
+cacheSolve(u)
